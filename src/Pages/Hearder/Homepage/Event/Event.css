@@ -1,0 +1,141 @@
+.numbers{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.eventsecond{
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    gap: 30px;
+    
+   
+}
+
+.eventss{
+    background-color: black;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    margin-top: 25px;
+    justify-content: center;
+    padding: 30px;
+    
+     
+   
+    
+    
+   
+}
+
+.event_section{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-bottom: 20px;
+
+    h3{
+        color: white;
+        padding-left: 40px;
+        margin: 0;
+    }
+}
+
+
+.upcoming{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    p{
+        color: white;
+        margin: 0;
+    }
+
+    
+}
+
+.bballscene{
+    /* background-color: red; */
+    /* width: 80%; */
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.secball{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p{
+        color: white;
+    }
+
+
+}
+
+.secballzzz{
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ptext_one{
+    width: 534px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+
+}
+
+
+
+
+.imgone{
+    /* background-color: black; */
+    width: 14px;
+}
+
+.buttondivs{
+    width: 100%;
+    display: flex;
+align-items: start;
+
+
+
+    button{
+        padding: 10px 20px;
+    background-color: #f3870b11;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    button:hover{
+        background-color: #F3870B;
+    }
+}
+
+.debbby{
+    /* background-color: red; */
+    
+    img{
+        width: 650px;
+    }
+}

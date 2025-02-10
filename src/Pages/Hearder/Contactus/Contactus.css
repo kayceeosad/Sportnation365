@@ -1,0 +1,80 @@
+.getin_section{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    margin-bottom: 20px;
+
+     p{
+        color: black;
+        margin: 0;
+    }
+
+}
+
+.firstform{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+.gettiiin{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+   
+    h3{
+        color: black;
+        /* padding-left: 40px; */
+        margin: 0;
+    }
+}
+
+.textinput{
+    label{
+        background-color: red;
+    }
+}
+
+
+.numberdiv{
+    background-color: blue;
+    width: 146px;
+    display: flex;
+    align-items:  baseline;
+}
+
+.numberdivs{
+    /* background-color: blue; */
+    width: 244px;
+    display: flex;
+    align-items:  baseline;
+}
+
+.numerics{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+
+    img{
+        width: 55px;
+    }
+
+    h6{
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0;
+    }
+}

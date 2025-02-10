@@ -1,0 +1,186 @@
+.footermain{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+
+    p{
+        color: white;
+    }
+
+
+
+    
+}
+
+
+.footersecond{
+    /* background-color: yellow; */
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    align-items: center;
+
+}
+
+
+.dreedives{
+    display: flex;
+    width: 789px;
+    height: 170px;
+    gap: 60px;
+}
+
+.iconnify{
+    display: flex;
+    gap: 5px;
+    
+    a{
+        color: #EA661C;
+    
+    
+    margin: 0;
+    }
+    
+}
+
+.logodiv{
+    /* background-color: red; */
+    width: 309px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 10px;
+
+
+
+    p{
+        color: white;
+        width: 309px;
+        margin: 0;
+    }
+}
+
+
+.links{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 170px;
+    gap: 8px;
+   
+
+    h3{
+        width: 88px;
+        color: #EA661C;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 0;
+    }
+}
+
+.getin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 134px;
+
+
+     h3{
+        width: 111px;
+        color: #EA661C;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    p{
+        color: white;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+.locate{
+    color: #EA661C;
+}
+
+.listing{
+    display: flex;
+    align-items: center;
+}
+
+.letter{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 314px;
+    height: 169px;
+    align-items: start;
+    gap: 5px;
+
+    
+
+    h3{
+        color: #EA661C;
+        margin: 0;
+    }
+
+    p{
+        color: white;
+        width: 314px;
+        display: flex;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.email{
+        padding: 8px;
+        padding-right: 90px;
+        /* background-color: red; */
+        outline: none;
+        border: 1px solid #EA661C;
+    }
+
+
+
+    .buttondisss{
+    width: 100%;
+    display: flex;
+align-items: start;
+
+
+
+    button{
+        padding: 10px 20px;
+    background-color: #f3870b11;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    button:hover{
+        background-color: #F3870B;
+    }
+}

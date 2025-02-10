@@ -1,0 +1,115 @@
+.Herobox{
+    /* background-color: red; */
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../../../../Images/bbb.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+    width: 100%;
+    /* padding: 100px; */
+    padding-top: 200px;
+    gap: 20px;
+    /* background-color: #00000080; */
+}
+
+.ptext{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+    width: 80%;
+    /* padding: 100px; */
+    /* padding-top: 200px; */
+    gap: 20px;
+    /* background-color: #00000080; */
+
+    p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 16px;
+        width: 355px;
+        top: 351.68px;
+        left: 103px;
+        height: 49.86px;
+        align-items: left;
+        color: white;
+    }
+
+    h1{
+        margin: 0;
+        width: 459px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 40px;
+        color: white;
+    }
+
+
+    button{
+        outline: none;
+    
+    padding: 10px 20px;
+    background-color: #f3870b11;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    button:hover{
+        background-color: #F3870B;
+    }
+    
+}
+
+
+.Navboxs{
+    display: flex;
+    gap: 60px;
+
+    a{
+        outline: none;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    .header{
+        width: 100%;
+
+    }
+    .navead{
+        width: 100%;
+        /* background-color: red; */
+
+        button{
+            display: none;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+    }
+
+    .Navboxs{
+        display: none;
+    }
+}
