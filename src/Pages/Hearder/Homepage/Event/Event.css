@@ -132,6 +132,10 @@ align-items: start;
     }
 }
 
+.bballscene2{
+    /* background-color: yellowgreen; */
+}
+
 .debbby{
     /* background-color: red; */
     
@@ -139,3 +143,50 @@ align-items: start;
         width: 650px;
     }
 }
+
+@media screen and (max-width:768px) {
+
+    .eventss{
+
+        /* background-color: red; */
+        /* width: 100%; */
+    }
+    
+    .eventsecond{
+        /* background-color: blue; */
+        width: 100% !important;
+    }
+
+    .bballscene{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bballscene2{
+        width: 100%;
+        /* background-color: yellowgreen; */
+    }
+
+    .debbby{
+        width: 370px;
+        /* background-color: aquamarine; */
+        img{
+            width: 100% !important;
+        }
+    }
+
+    .secball{
+        width: 370px;
+    }
+
+    .ptext_one{
+        width: 100% !important;
+    font-weight: 400;
+    font-size: 8px;
+    /* background-color: red; */
+
+    }
+}
+
+

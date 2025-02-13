@@ -19,7 +19,7 @@ const Event = () => {
           <h3>LEARN BASKETBALL</h3>
         </div>
         <div className="bballscene">
-          <div>
+          <div className='bballscene2'>
             <div className="debbby">
               <img src={scene1} alt="" />
             </div>

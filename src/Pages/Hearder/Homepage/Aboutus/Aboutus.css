@@ -22,6 +22,10 @@
 
 }
 
+.imges2w{
+    width: 100%;
+}
+
 .colred{
     color: #EA661C;
 }
@@ -71,4 +75,45 @@ button:hover{
 }
 
 
+@media screen and (max-width:768px) {
+    .about_section{
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+    }
 
+    .aboutsecond{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .imges2w{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       /* background-color: yellow; */
+
+       img{
+        width: 370px;
+       }
+    }
+
+    .readme{
+        width: 370px;
+        /* background-color: green; */
+    }
+
+    .aboutptext{
+
+        /* background-color: aqua; */
+        width: 100%;
+
+        h2{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+    }
+}

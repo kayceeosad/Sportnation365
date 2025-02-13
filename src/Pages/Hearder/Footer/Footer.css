@@ -9,11 +9,7 @@
 
     p{
         color: white;
-    }
-
-
-
-    
+    }   
 }
 
 
@@ -163,7 +159,7 @@
     .buttondisss{
     width: 100%;
     display: flex;
-align-items: start;
+    align-items: start;
 
 
 
@@ -183,4 +179,81 @@ align-items: start;
     button:hover{
         background-color: #F3870B;
     }
+}
+
+@media screen and (max-width:768px) {
+    .logodiv{
+        display: flex;
+        position: absolute;
+        top: -400px;
+        left: 50px;
+        img{
+            width: 40%;    
+        }
+        p{
+        color: white;
+        /* width: 156px;     */
+        display: flex;
+        text-align: left;
+        margin: 0;
+    }
+}
+ 
+    .footermain{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 1000px; 
+    position: relative;
+    .copy{
+        position: absolute;
+        bottom: 0px;
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 
+
+
+.footersecond{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+    .dreedives{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 80%;
+    height: 600px;
+    top: -120px;
+    left: 50px;
+    /* top: 100px !important; */
+    }
+
+    .links{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 170px;
+    gap: 8px;
+   
+
+    h3{
+        width: 88px;
+        color: #EA661C;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 0;
+    }
+}
 }

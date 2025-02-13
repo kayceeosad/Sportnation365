@@ -93,6 +93,11 @@
 @media screen and (max-width:768px) {
 
 
+    .Herobox{
+height: 550px;
+background-position: center;
+    }
+
     .header{
         width: 100%;
 
@@ -100,6 +105,8 @@
     .navead{
         width: 100%;
         /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
 
         button{
             display: none;
@@ -107,9 +114,26 @@
             justify-content: space-between;
         }
 
+        img{
+            width: 25%;
+        }
+
     }
 
     .Navboxs{
         display: none;
+    }
+
+    .text{
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    .ptext{
+        width: 90%;
+
+        h1{
+            width: 100%;
+        }
     }
 }

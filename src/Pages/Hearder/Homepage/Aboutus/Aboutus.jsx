@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <div className="about_section">
       <div className="aboutsecond">
-        <div>
+        <div className='imges2w'>
           <img src={two} alt="" />
         </div>
 

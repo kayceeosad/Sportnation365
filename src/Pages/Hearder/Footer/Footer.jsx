@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p>Copyright 2025.Sportnation365academy.All right reserved</p>
+      <p className='copy'>Copyright 2025.Sportnation365academy.All right reserved</p>
     </div>
   );
 }
