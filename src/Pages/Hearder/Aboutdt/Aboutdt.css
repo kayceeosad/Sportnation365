@@ -46,7 +46,7 @@
   color: #ffa500;
 }
 
-.register-btn a {
+.register-btn{
   padding: 8px 18px;
   border: 1px solid #ffa500;
   color: white;
@@ -56,7 +56,7 @@
   
 }
 
-.register-btn a:hover {
+.register-btn:hover {
   background: #ffa500;
   color: black;
 }
@@ -340,3 +340,101 @@
       margin: 0;
       
     }
+
+
+    @media screen and (max-width:768px) {
+
+
+    .headers{
+height: 500px;
+background-position: center;
+    }
+
+    .headers{
+        width: 100%;
+
+    }
+    .header-container{
+        width: 80%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+
+       
+    }
+
+    .register-btn{
+      display: none;
+            width: 100%;
+            justify-content: space-between;
+    }
+
+    .Navbox{
+        display: none;
+    }
+
+    
+
+    .logo{
+      img{
+            width: 40%;
+        }
+
+    }
+
+
+    .aboutmore{
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+    }
+
+    .aboutsecond{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .spin{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       /* background-color: yellow; */
+
+       img{
+        width: 370px;
+       }
+    }
+
+    .readme{
+        width: 370px;
+        /* background-color: green; */
+    }
+
+    .aboutptext{
+
+        /* background-color: aqua; */
+        width: 100%;
+
+        h2{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+    }
+
+    .corevalues{
+      width: 100%;
+    }
+
+    .coresecond{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    
+}

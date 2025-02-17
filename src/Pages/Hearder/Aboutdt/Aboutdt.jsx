@@ -14,6 +14,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Dropdown from "../Dropdownpage/Dropdownpage";
 
 
 const Aboutdt = () => {
@@ -30,10 +31,11 @@ const Aboutdt = () => {
             <a href="/Programmedetails">PROGRAMS</a>
             <a href="/Gallery">GALLERY</a>
             <a href="/Eventsec">EVENTS</a>
-            <a href="">CONTACT</a>
+            <a href="/Contactus">CONTACT</a>
+            <Dropdown />
           </nav>
           <div className="register-btn">
-            <a href="#register">Register</a>
+            <button>REGISTER</button>
           </div>
         </div>
         <div className="hero-section">
@@ -67,7 +69,6 @@ const Aboutdt = () => {
                 id integer nisi nisl. Quam ut eget orci leo lacus sit nulla eget
                 amet.
               </p>
-              
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const Programmedetails = () => {
             <a href="/Programmedetails">PROGRAMS</a>
             <a href="/Gallery">GALLERY</a>
             <a href="/Eventsec">EVENTS</a>
-            <a href="">CONTACT</a>
+            <a href="/Contactus">CONTACT</a>
           </nav>
           <div className="register-btn">
             <a href="#register">Register</a>

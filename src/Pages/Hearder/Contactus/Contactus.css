@@ -19,6 +19,51 @@
 }
 
 
+.labellsss{
+    input{
+        width: 300px;
+        height: 30px;
+        border: 3px solid #F3870B;
+    }
+}
+
+
+.messagesdiv{
+    margin-top: 20px;
+    textarea{
+        width: 625px;
+        height: 250px;
+        border: 3px solid #F3870B;
+         
+    }
+}
+
+.formsectiondivx{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.getin_section{
+    /* background-color: blue; */
+    width: 80%;
+    display: flex;
+    
+}
+
+
+.form_Section{
+    /* background-color: yellow; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   
+}
 
 
 
@@ -36,15 +81,26 @@
     }
 }
 
-.textinput{
-    label{
-        background-color: red;
-    }
+
+
+.form-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.detailsdivvs{
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 90px;
+    gap: 40px;
 }
 
 
 .numberdiv{
-    background-color: blue;
+    /* background-color: blue; */
     width: 146px;
     display: flex;
     align-items:  baseline;
@@ -58,7 +114,7 @@
 }
 
 .numerics{
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
 
@@ -77,4 +133,55 @@
         font-size: 16px;
         margin: 0;
     }
+}
+.numericss{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+
+    img{
+        width: 70px;
+    }
+
+    h6{
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+.numericsss{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+
+    img{
+        width: 118px;
+    }
+
+    h6{
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+.mapssss{
+   
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    
+    
 }
