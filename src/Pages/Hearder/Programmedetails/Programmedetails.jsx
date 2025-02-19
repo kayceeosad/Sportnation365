@@ -4,6 +4,7 @@ import logo from "../../../Images/lOGO.png";
 import ofa from "../../../Images/Arrow 1.png"
 import kid from "../../../Images/Component 3.png"
 import adult from "../../../Images/Component 4.png"
+import Dropdown from '../Dropdownpage/Dropdownpage';
 
 
 const Programmedetails = () => {
@@ -22,6 +23,7 @@ const Programmedetails = () => {
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
           </nav>
+          <Dropdown />
           <div className="register-btn">
             <a href="#register">Register</a>
           </div>

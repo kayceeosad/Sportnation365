@@ -348,12 +348,11 @@
     .headers{
 height: 500px;
 background-position: center;
+width: 100%;
+overflow-x: hidden;
     }
 
-    .headers{
-        width: 100%;
-
-    }
+    
     .header-container{
         width: 80%;
         /* background-color: red; */
@@ -425,15 +424,57 @@ background-position: center;
     }
 
     .corevalues{
+      width: 85%;
+      /* background-color: red; */
+    }
+
+    .event_sectionss{
       width: 100%;
+      /* background-color: green; */
     }
 
     .coresecond{
-      width: 80%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       gap: 20px;
       justify-content: center;
+      /* background-color: blue; */
+    }
+
+    .missionsss{
+      /* background-color: yellow; */
+      width: 100%;
+    }
+
+    .ourteam_section{
+      /* background-color: red; */
+      width: 81%;
+      display: flex;
+      flex-direction: column;
+     align-items: start;
+     
+    }
+
+    .team_sectionss{
+      /* background-color: green; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .players_Section{
+      /* background-color: blue; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+      
+    }
+
+    .color_section{
+      width: 100%;
     }
 
     

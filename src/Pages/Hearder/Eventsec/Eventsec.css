@@ -153,3 +153,9 @@ align-items: start;
         width: 650px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .event_section{
+        display: none;
+    }
+}

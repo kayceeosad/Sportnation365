@@ -5,6 +5,7 @@ import row from "../../../Images/Arrow 1.png"
 import { FaPhoneAlt } from "react-icons/fa";
 import line6 from "../../../Images/Line 6.png"
 import { IoLocation } from "react-icons/io5";
+import Dropdown from '../Dropdownpage/Dropdownpage';
 
 
 
@@ -24,6 +25,7 @@ const Contactus = () => {
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
           </nav>
+          <Dropdown />
           <div className="register-btn">
             <a href="#register">Register</a>
           </div>
@@ -112,12 +114,16 @@ const Contactus = () => {
         </div>
       </div>
 
-      <iframe className='mapssss' src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3963.9880547860416!2d3.2921950749929296!3d6.523190893469393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s50%2CFemi%20pedro%20street%20Okota%2Clagos%20Nigeria!5e0!3m2!1sen!2sng!4v1739697444762!5m2!1sen!2sng" width="90%" height="450"
-       style={{border:0}}
-       allowfullscreen="" 
-       loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-
-       </iframe>
+      <iframe
+        className="mapssss"
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3963.9880547860416!2d3.2921950749929296!3d6.523190893469393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s50%2CFemi%20pedro%20street%20Okota%2Clagos%20Nigeria!5e0!3m2!1sen!2sng!4v1739697444762!5m2!1sen!2sng"
+        width="90%"
+        height="450"
+        style={{ border: 0 }}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   );
 }

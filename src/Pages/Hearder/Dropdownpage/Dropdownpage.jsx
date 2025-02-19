@@ -24,14 +24,14 @@ const Dropdown = () => {
       <div className={`slidingmenuss ${isOpen ? "open" : ""}`}>
         <a href="/">HOME</a>
         <a href="/Aboutdt">ABOUT</a>
-        <a href="">PROGRAMS</a>
-        <a href="">GALLERY</a>
-        <a href="">EVENTS</a>
-        <a href="">CONTACT</a>
-
-        <button className="butty">
-          <a href="/contactus">CONTACT US</a>
-        </button>
+        <a href="/Programmedetails">PROGRAMS</a>
+        <a href="/Gallery">GALLERY</a>
+        <a href="/Eventsec">EVENTS</a>
+        {/* <a href="/Contactus">CONTACT</a> */}
+        
+          <a href="/Contactus" className="buttyss">
+            CONTACT US
+          </a>
       </div>
     </div>
   );

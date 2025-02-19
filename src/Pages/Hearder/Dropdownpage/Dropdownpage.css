@@ -8,14 +8,18 @@
   border: none;
   cursor: pointer;
   margin-right: 10px;
-   /* overflow-x: hidden; */
+  /* overflow-x: hidden; */
 }
 
 .slidingmenuss {
-     display: flex;
+  display: flex;
   flex-direction: column;
   gap: 20px;
-  /* background-color: #6c933a; */
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: 2px #eee solid;
   height: 1000px;
   position: absolute;
   /* right: -400px; */
@@ -23,37 +27,34 @@
   color: white;
   transition: right 0.3s ease;
   padding-top: 10px;
-display: none;
-right: 0;
+  display: none;
+  right: 0;
+}
 
+.buttyss{
+  /* width: 152px;
+  height: 43px; */
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  outline: 1px solid white;
+  border: 1px solid white;
+}
 
-  
-.butty a {
+.buttyss a {
   text-decoration: none;
   color: white;
 }
- .butty button{
-    width: 152px;
-height:43px;
-padding: 10px;
-gap: 10px;
-border-radius: 20px;
-color: white;
-outline: 1px solidwhite;
-border:1px solid white;
-    background-color: #FE5925;
-  }
 
- 
+.buttyss button:hover {
+  cursor: pointer;
+  background-color: transparent;
 }
 
-.butty  button:hover{
-
-    cursor: pointer;
-    background-color: transparent;
-  }
-
-  
 .slidingmenuss.open {
   right: 0;
   display: flex;
@@ -63,34 +64,32 @@ border:1px solid white;
   gap: 20px;
   padding-top: 10px;
   /* background-color: #6c933a; */
-  height: 250px;
+  height: 300px;
   /* display: block; */
-   /* overflow-x: hidden; */
+  /* overflow-x: hidden; */
 }
-.slidingmenuss a{
+.slidingmenuss a {
   text-decoration: none;
   color: white;
 }
-.slidingmenuss a:hover{
-  color: #FE5925;
+.slidingmenuss a:hover {
+  color: #fe5925;
 }
 
-.responsiveservices{
-    display: flex;
-     /* overflow-x: hidden; */
+.responsiveservices {
+  display: flex;
+  /* overflow-x: hidden; */
 }
 
-
-@media screen and (max-width:768px) {
-    .slidingmenuss {
+@media screen and (max-width: 768px) {
+  .slidingmenuss {
     transform: translateX(-100%);
   }
   .slidingmenuss.open {
     transform: translateX(0);
-
   }
 
-  .dropdownfirst{
+  .dropdownfirst {
     display: block;
   }
 }

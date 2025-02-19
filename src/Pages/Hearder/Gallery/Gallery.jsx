@@ -12,6 +12,7 @@ import eigt from "../../../Images/8t pic.png";
 import nines from "../../../Images/9t pic.png";
 import ten from "../../../Images/galk9.png";
 import ofa from "../../../Images/Arrow 1.png";
+import Dropdown from '../Dropdownpage/Dropdownpage';
 
 const Gallery = () => {
   return (
@@ -29,6 +30,7 @@ const Gallery = () => {
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
           </nav>
+          <Dropdown />
           <div className="register-btn">
             <a href="#register">Register</a>
           </div>

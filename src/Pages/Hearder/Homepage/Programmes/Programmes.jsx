@@ -115,18 +115,18 @@ const Programmes = () => {
               <img src={second} alt="" />
               <img src={seven} alt="" />
             </div>
-            <div className="fivepicturess3">
+             <div className="fivepicturess">
               <img src={trd} alt="" />
               <img src={eigt} alt="" />
             </div>
-            <div className="fivepicturess4">
+            <div className="fivepicturess">
               <img src={four} alt="" />
               <img src={nines} alt="" />
             </div>
-            <div className="fivepicturess5">
+            <div className="fivepicturess">
               <img src={five} alt="" />
               <img src={ten} alt="" />
-            </div>
+            </div> 
           </div>
         </div>
 

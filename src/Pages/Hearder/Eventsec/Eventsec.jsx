@@ -7,6 +7,7 @@ import vect1 from "../../../Images/Vector (12).png"
 import line1 from "../../../Images/Line 1 (1).png"
 import vect2 from "../../../Images/Vector (13).png"
 import vect3 from "../../../Images/Vector (14).png"
+import Dropdown from '../Dropdownpage/Dropdownpage'
 
 const Eventsec = () => {
   return (
@@ -24,6 +25,7 @@ const Eventsec = () => {
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
           </nav>
+          <Dropdown />
           <div className="register-btn">
             <a href="#register">Register</a>
           </div>

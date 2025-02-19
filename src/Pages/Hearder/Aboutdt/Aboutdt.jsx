@@ -32,8 +32,9 @@ const Aboutdt = () => {
             <a href="/Gallery">GALLERY</a>
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
-            <Dropdown />
+          
           </nav>
+            <Dropdown />
           <div className="register-btn">
             <button>REGISTER</button>
           </div>
