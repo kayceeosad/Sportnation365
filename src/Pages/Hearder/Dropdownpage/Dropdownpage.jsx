@@ -27,10 +27,10 @@ const Dropdown = () => {
         <a href="/Programmedetails">PROGRAMS</a>
         <a href="/Gallery">GALLERY</a>
         <a href="/Eventsec">EVENTS</a>
-        {/* <a href="/Contactus">CONTACT</a> */}
+        <a href="/Contactus">CONTACT</a>
         
-          <a href="/Contactus" className="buttyss">
-            CONTACT US
+          <a href="/Registration" className="buttyss">
+            REGISTER
           </a>
       </div>
     </div>

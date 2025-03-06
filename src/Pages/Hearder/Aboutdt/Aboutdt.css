@@ -47,12 +47,32 @@
 }
 
 .register-btn{
-  padding: 8px 18px;
-  border: 1px solid #ffa500;
-  color: white;
+  /* padding: 8px 18px;
+  border: 1px solid #ffa500; */
+  /* color: white; */
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
+
+
+   button{
+        outline: none;
+    
+    padding: 10px 20px;
+    background-color: #f3870b11;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    button:hover{
+        background-color: #F3870B;
+    }
   
 }
 

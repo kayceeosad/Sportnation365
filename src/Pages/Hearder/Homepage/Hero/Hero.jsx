@@ -18,7 +18,9 @@ const Hero = () => {
             <a href="/Eventsec">EVENTS</a>
             <a href="/Contactus">CONTACT</a>
           </div>
-          <button>REGISTER</button>
+          <a href="/Registration">
+            <button>REGISTER</button>
+          </a>
           <Dropdown />
         </nav>
 
@@ -29,7 +31,9 @@ const Hero = () => {
               Lorem ipsum dolor sit amet consectetur. A morbi nunc ac velit est
               tellus ipsum facilisi volutpat. .
             </p>
-            <button>Join Team</button>
+            <a href="/Registration">
+              <button>Join Team</button>
+            </a>
           </div>
         </div>
       </header>

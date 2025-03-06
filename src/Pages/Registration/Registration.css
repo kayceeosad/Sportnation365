@@ -1,0 +1,162 @@
+.firstdivvvs{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.secondivvs{
+    /* background-color: yellow; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.firstforms{
+     display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+
+
+.labellssss{
+    input{
+        width: 600px;
+        height: 30px;
+        border: 3px solid #F3870B;
+    }
+}
+
+
+.messagesdivs{
+    margin-top: 20px;
+    textarea{
+        width: 600px;
+        height: 250px;
+        border: 3px solid #F3870B;
+         
+    }
+}
+
+
+.buttondivss{
+    width: 100%;
+    display: flex;
+align-items: start;
+
+button{
+        outline: none;
+    
+    padding: 10px 20px;
+    background-color: #f3870b11;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 273px;
+    padding-right: 273px;
+}
+
+button:hover{
+        background-color: #F3870B;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+
+    .firstdivvvs{
+        /* background-color: red; */
+        width: 100%;
+    }
+
+
+    .secondivvs{
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .imgdivvviss{
+        img{
+            width: 100%;
+        }
+    }
+
+    .messagesdivs{
+    margin-top: 20px;
+    textarea{
+        width: 90%;
+        height: 250px;
+        border: 3px solid #F3870B;
+         
+    }
+}
+
+
+.labellssss{
+    input{
+        width: 90%;
+        height: 30px;
+        border: 3px solid #F3870B;
+    }
+}
+
+
+
+.buttondivss{
+    width: 100%;
+    display: flex;
+align-items: start;
+
+button{
+        outline: none;
+    
+    padding: 10px 20px;
+    background-color: #f3870b11;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid #F3870B;
+    padding-left: 147px;
+    padding-right: 147px;
+}
+
+button:hover{
+        background-color: #F3870B;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+
+
+

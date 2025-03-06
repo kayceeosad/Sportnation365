@@ -29,6 +29,8 @@
   padding-top: 10px;
   display: none;
   right: 0;
+
+  
 }
 
 .buttyss{
@@ -70,7 +72,7 @@
 }
 .slidingmenuss a {
   text-decoration: none;
-  color: white;
+  color: rgb(5, 252, 108);
 }
 .slidingmenuss a:hover {
   color: #fe5925;

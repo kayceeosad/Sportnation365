@@ -206,7 +206,7 @@
     }
 
     .form_Section{
-        border-color: yellow;
+        /* border-color: yellow; */
         display: flex;
         flex-direction: column;
     }
@@ -228,7 +228,7 @@
     }
 
     .mapssss{
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         margin-right: 0;
         margin-left: 0;

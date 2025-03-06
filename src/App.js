@@ -14,6 +14,7 @@ import Programmedetails from "./Pages/Hearder/Programmedetails/Programmedetails"
 import Gallery from "./Pages/Hearder/Gallery/Gallery";
 import Eventsec from "./Pages/Hearder/Eventsec/Eventsec";
 import Contactus from "./Pages/Hearder/Contactus/Contactus";
+import { Registration } from "./Pages/Registration/Registration";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Eventsec" element={<Eventsec />} />
         <Route path="/Contactus" element={<Contactus />} />
+        <Route path="/Registration" element={<Registration />} />
       </Routes>
       <Footer />
     </Router>

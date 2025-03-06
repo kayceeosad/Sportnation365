@@ -32,7 +32,9 @@ const Gallery = () => {
           </nav>
           <Dropdown />
           <div className="register-btn">
-            <a href="#register">Register</a>
+            <a href="/Registration">
+              <button>REGISTER</button>
+            </a>
           </div>
         </div>
         <div className="hero-section">
